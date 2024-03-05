@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Renter Dashboard</title>
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="icon" href="../images/logo.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <h1>Renter Dashboard</h1>
+      <nav>
+        <ul>
+          <li><a href="/renter/renter-dashboard.html" class="active">Home</a></li>
+          <!-- <li><a href="#">Add a New Listing</a></li> -->
+          <li><a href="../renter/renter-requests.html">Requests</a></li>
+          <li><a href="../renter/renter-messages.html">Messages</a></li>
+          <li><a href="../renter/renter-profile.html">Profile</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Your Current Listings</h2> <!-- Added heading -->
+
+      <div class="image-container">
+        <div class="image">
+          <img src="../images/parking1renter.jpg" alt="Image 1">
+          <div>
+            <p>Name: Mirdif Hills Villa Parking<br>Type: Villa<br>Day and Time: Monday-Thursday from 9am-5pm<br>Capacity(cars): 2<br>Price: Dhs 25<br>Location: <a href="https://www.google.com/maps?q=Mirdif+Hills+Dubai+UAE" target="_blank">Mirdif Hills</a></p>
+            <div class="edit-delete">
+              <button class="edit-button">Edit</button>
+              <button class="delete-button">Delete</button>
+            </div>
+          </div>
+        </div>
+        <div class="image">
+          <img src="../images/parking2renter.jpg" alt="Image 2">
+          <div>
+            <p>Name: Oxford Offices Parking<br>Type: Building<br>Day and Time: Wednesday from 10am-5pm<br>Capacity(cars): 3<br>Price: Dhs 20<br>Location: <a href="https://www.google.com/maps/place/Oxford+Office+Equipment+LLC/@25.2681165,55.161237,12z/data=!4m10!1m2!2m1!1soxford+offices!3m6!1s0x3e5f43354839453d:0x5e5beb88bc5b66db!8m2!3d25.2681165!4d55.3136723!15sCg5veGZvcmQgb2ZmaWNlc1oQIg5veGZvcmQgb2ZmaWNlc5IBGW9mZmljZV9lcXVpcG1lbnRfc3VwcGxpZXLgAQA!16s%2Fg%2F119tfgzcy?entry=ttu" target="_blank">Oxford Offices</a></p>
+            <div class="edit-delete">
+              <button class="edit-button">Edit</button>
+              <button class="delete-button">Delete</button>
+            </div>
+          </div>
+        </div>
+        <div class="image">
+          <img src="../images/parking3renter.jpg" alt="Image 3">
+          <div>
+            <p>Name: Middlesex Parking<br>Type: Garage<br>Day and Time: Friday from 12pm-2pm<br>Capacity(cars): 2<br>Price: Dhs 30<br>Location: <a href="https://www.google.com/maps/place/Middlesex+University+Dubai+-+Main+Campus/@25.1034345,55.1594649,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f6b6b695079cf:0x39837c77fd4e2851!8m2!3d25.1034297!4d55.1643358!16s%2Fg%2F11h1y72ky8?entry=ttu" target="_blank">Middlesex</a></p>
+            <div class="edit-delete">
+              <button class="edit-button">Edit</button>
+              <button class="delete-button">Delete</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="add-listing">
+        <a href="../renter/addalisting.html" class="add-listing-button">Add a New Listing</a>
+      </div>
+    </main>
+  </body>
+</html>

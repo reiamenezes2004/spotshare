@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+}
+
+header {
+  background-color: #0039a6;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+nav a.active {
+  color: #ffcc00; /* Change color to highlight */
+  font-weight: bold; /* Make the text bold to highlight */
+  /* Add any other styles you want for highlighting */
+}
+
+
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+/* Updated CSS for the image container and images */
+.image-container {
+  display: flex;
+  flex-direction: column; /* Set flex direction to column for vertical layout */
+}
+
+.image {
+  display: flex; /* Set image and text to display as flex items */
+  align-items: center; /* Align items vertically */
+  margin-bottom: 20px; /* Add some space between each image */
+}
+
+.image img {
+  max-width: 100%; /* Make images responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.image p {
+  margin: 0; /* Remove default margin */
+  margin-left: 10px; /* Add spacing between image and text */
+}
+
+#add-listing {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.add-listing-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.add-listing-button:hover {
+  background-color: #555;
+}
+
+.request-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.request {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.request p {
+  margin: 0;
+}
+
+.actions button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.accept-button {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: #fff;
+}
